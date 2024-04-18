@@ -1,0 +1,14 @@
+.pure-g {
+  gap: 16px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .main-wrapper .pure-u {
+    width: 100%;
+  }
+}
